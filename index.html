@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Bot Agency</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <!--<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
@@ -28,8 +28,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+        <a class="navbar-brand" href="#">
+          { <i class="fab text-primary fa-telegram-plane"></i> bot_agency }
+        </a>
+        <a class="btn btn-primary" href="#demo">Demo</a>
       </div>
     </nav>
 
@@ -39,16 +41,19 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+            <h1 class="mb-5">Build a Telegram bot for your business!</h1>
+            <p class="mb-3">Continue talk with us via Telegram Introduction got :)</p>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your @username">
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
                 </div>
               </div>
             </form>
@@ -60,32 +65,35 @@
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
       <div class="container">
+        <h2 class="mb-5">What we use ?</h2>
         <div class="row">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-screen-desktop m-auto text-primary"></i>
+                <i class="fab fa-telegram-plane fa-5x m-auto text-primary"></i>
               </div>
-              <h3>Fully Responsive</h3>
-              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+              <h4>Telegram Bot API</h4>
+              <p class="lead mb-0">The Bot API is an HTTP-based interface created for developers keen on building bots
+                for Telegram</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
+                <i class="fab fa-laravel fa-5x m-auto text-primary"></i>
               </div>
-              <h3>Bootstrap 4 Ready</h3>
-              <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+              <h4>Laravel</h4>
+              <p class="lead mb-0">The PHP Framework For Web Artisans</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
+                <i class="fab fa-wordpress-simple fa-5x m-auto text-primary"></i>
               </div>
-              <h3>Easy to Use</h3>
-              <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+              <h4>Wordpress</h4>
+              <p class="lead mb-0">WordPress is open source software you can use to create a beautiful website, blog, or
+                app.</p>
             </div>
           </div>
         </div>
@@ -93,79 +101,56 @@
     </section>
 
     <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy to Use &amp; Customize</h2>
-            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials text-center bg-light">
+    <section class="showcase" id="demo">
       <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-              <h5>Margaret E.</h5>
-              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-            </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Find restaurant</h2>
+            <p class="lead mb-3">This bot will help you to find favourite food place near your current location</p>
+            <a href="https://telegram.me/my_landing_bot" class="btn btn-lg btn-outline-primary">Try bot</a>
           </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-              <h5>Fred S.</h5>
-              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-            </div>
+          <div class="col-lg-6 text-white">
+            <img src="img/bot1_scr.png" class="img-thumbnail" alt="">
           </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-              <h5>Sarah	W.</h5>
-              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-            </div>
+        </div>
+        <div class="dropdown-divider mt-5 mb-5"></div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>ReserveBot</h2>
+            <p class="lead mb-3">Using this bot you could reserve table in a restaurant. This bot has admin panel for
+              restaurant administrators. It helps admins to manage reservations online</p>
+            <a href="https://telegram.me/tables_reserve_bot" class="btn btn-lg btn-outline-primary">Try bot</a>
+          </div>
+          <div class="col-lg-6 text-white">
+            <img src="img/bot2_scr.png" class="img-thumbnail" alt="">
           </div>
         </div>
       </div>
     </section>
 
     <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
+    <section id="test" class="call-to-action text-white text-center">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+            <h2 class="mb-4">Ready to get started? Send us a message!</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <div class="col-12 col-md-12 mb-2 mb-md-2">
+                  <input type="text" class="form-control form-control-lg" placeholder="Enter your name">
+                </div>
+
+                <div class="col-12 col-md-12 mb-2 mb-md-2">
                   <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
                 </div>
+                <div class="col-12 col-md-12 mb-2 mb-md-2">
+                  <textarea class="form-control form-control-lg" placeholder="Describe what bot you need"></textarea>
+                </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Send</button>
                 </div>
               </div>
             </form>
@@ -179,40 +164,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+            <!--<ul class="list-inline mb-2">-->
+              <!--<li class="list-inline-item">-->
+                <!--<a href="#">About</a>-->
+              <!--</li>-->
+              <!--<li class="list-inline-item">&sdot;</li>-->
+              <!--<li class="list-inline-item">-->
+                <!--<a href="#">Contact</a>-->
+              <!--</li>-->
+            <!--</ul>-->
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Telegram Bot Agency 2018. All Rights Reserved.</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-facebook fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                </a>
-              </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fab fa-instagram fa-2x fa-fw"></i>
+                  <i class="fab fa-github fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item ">
+                <a href="#">
+                  <i class="fab fa-telegram fa-2x fa-fw"></i>
                 </a>
               </li>
             </ul>

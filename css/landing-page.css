@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/download.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -51,18 +51,21 @@ header.masthead h1 {
   }
 }
 
-.showcase .showcase-text {
-  padding: 3rem;
+.showcase {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
+.showcase .showcase-text {
+  padding: 2rem;
 }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
+  }
+  .showcase img {
+    max-width: 80%;
   }
 }
 
@@ -87,25 +90,17 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-.testimonials .testimonial-item img {
-  max-width: 12rem;
-  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+@media (max-width: 768px) {
+  .features-icons {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/download.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -121,7 +116,14 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+@media (max-width: 768px) {
+  .call-to-action {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

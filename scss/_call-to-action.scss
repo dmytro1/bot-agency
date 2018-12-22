@@ -1,7 +1,7 @@
 .call-to-action {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/download.jpeg') no-repeat center center;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -14,4 +14,9 @@
     left: 0;
     opacity: 0.3;
   }
+  @media (max-width: 768px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
 }
