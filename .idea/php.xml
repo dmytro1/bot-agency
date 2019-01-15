@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/league/event" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/composer" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/irazasyed/telegram-bot-sdk" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/restaurant-bot/vendor/doctrine/inflector" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>

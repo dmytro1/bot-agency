@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/irazasyed/telegram-bot-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant-bot/vendor/symfony/translation" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
