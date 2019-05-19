@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lucida Grande', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lucida Grande', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -41,6 +41,19 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+header.masthead .tg-btn {
+  color: #ffffff;
+  background-color: #0088cc;
+}
+
+header.masthead .tg-btn:hover {
+  background-color: #0076b9;
+}
+
+header.masthead .tg-inline-btn {
+  color: #0088cc;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -51,6 +64,10 @@ header.masthead h1 {
   }
 }
 
+nav.navbar .tg-inline-btn {
+  color: #0088cc;
+}
+
 .showcase {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -58,6 +75,17 @@ header.masthead h1 {
 
 .showcase .showcase-text {
   padding: 2rem;
+}
+
+.showcase .tg-btn-inverse {
+  color: #fff;
+  background-color: #0088cc;
+}
+
+.showcase .tg-btn-inverse:hover {
+  color: #0088cc;
+  border-color: #0088cc;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -121,6 +149,15 @@ header.masthead h1 {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+}
+
+.call-to-action .tg-btn {
+  color: #ffffff;
+  background-color: #0088cc;
+}
+
+.call-to-action .tg-btn:hover {
+  background-color: #0076b9;
 }
 
 footer.footer {

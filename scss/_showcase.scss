@@ -1,9 +1,22 @@
 .showcase {
   padding-top: 4rem;
   padding-bottom: 4rem;
+
   .showcase-text {
     padding: 2rem;
   }
+
+  .tg-btn-inverse {
+    color: #fff;
+    background-color: #0088cc;
+  }
+
+  .tg-btn-inverse:hover {
+    color: #0088cc;
+    border-color: #0088cc; ;
+    background-color: #fff;
+  }
+
   @media (min-width: 768px) {
     .showcase-text {
       padding: 7rem;

@@ -17,6 +17,19 @@ header.masthead {
   h1 {
     font-size: 2rem;
   }
+
+  .tg-btn {
+    color: #ffffff;
+    background-color: #0088cc;
+  }
+
+  .tg-btn:hover {
+    background-color: #0076b9;
+  }
+
+  .tg-inline-btn {
+    color: #0088cc;
+  }
   @media (min-width: 768px) {
     padding-top: 12rem;
     padding-bottom: 12rem;
