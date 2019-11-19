@@ -65,7 +65,30 @@ header.masthead .tg-inline-btn {
 }
 
 nav.navbar .tg-inline-btn {
-  color: #0088cc;
+  color: #fff;
+  text-decoration: underline;
+}
+
+nav.navbar .navbar-brand .logo {
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  nav.navbar .navbar-brand {
+    width: 70% !important;
+  }
+  nav.navbar .navbar-brand .logo {
+    width: 65%;
+  }
+}
+
+nav.navbar .tg-btn {
+  color: #ffffff;
+  background-color: #0088cc;
+}
+
+nav.navbar .tg-btn:hover {
+  background-color: #0076b9;
 }
 
 .showcase {

@@ -1,5 +1,29 @@
 nav.navbar {
   .tg-inline-btn {
-    color: #0088cc;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .navbar-brand {
+
+    .logo {
+      width: 45%;
+    }
+
+    @media (max-width: 768px) {
+      width: 70% !important;
+      .logo {
+        width: 65%;
+      }
+    }
+  }
+
+  .tg-btn {
+    color: #ffffff;
+    background-color: #0088cc;
+  }
+
+  .tg-btn:hover {
+    background-color: #0076b9;
   }
 }

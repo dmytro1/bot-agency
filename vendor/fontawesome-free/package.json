@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.3.1",
-      "/Users/imac/PhpstormProjects/bot-agency"
+      "C:\\Users\\dmvos\\myProjects\\bot-agency"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.3.1",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.3.1.tgz",
   "_spec": "5.3.1",
-  "_where": "/Users/imac/PhpstormProjects/bot-agency",
+  "_where": "C:\\Users\\dmvos\\myProjects\\bot-agency",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
