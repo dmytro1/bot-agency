@@ -56,8 +56,8 @@ header.masthead .tg-inline-btn {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -65,30 +65,11 @@ header.masthead .tg-inline-btn {
 }
 
 nav.navbar .tg-inline-btn {
-  color: #fff;
-  text-decoration: underline;
+  color: #0088cc;
 }
 
-nav.navbar .navbar-brand .logo {
-  width: 45%;
-}
-
-@media (max-width: 768px) {
-  nav.navbar .navbar-brand {
-    width: 70% !important;
-  }
-  nav.navbar .navbar-brand .logo {
-    width: 65%;
-  }
-}
-
-nav.navbar .tg-btn {
-  color: #ffffff;
-  background-color: #0088cc;
-}
-
-nav.navbar .tg-btn:hover {
-  background-color: #0076b9;
+nav.navbar .navbar-brand {
+  margin: 0 auto;
 }
 
 .showcase {
