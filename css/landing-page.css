@@ -79,6 +79,7 @@ nav.navbar .navbar-brand {
 
 .showcase .showcase-text {
   padding: 2rem;
+  text-align: center;
 }
 
 .showcase .tg-btn-inverse {
@@ -94,7 +95,7 @@ nav.navbar .navbar-brand {
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 0 7rem;
   }
   .showcase img {
     max-width: 80%;

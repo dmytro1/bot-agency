@@ -4,6 +4,7 @@
 
   .showcase-text {
     padding: 2rem;
+    text-align: center;
   }
 
   .tg-btn-inverse {
@@ -19,7 +20,7 @@
 
   @media (min-width: 768px) {
     .showcase-text {
-      padding: 7rem;
+      padding: 0 7rem;
     }
     img {
       max-width: 80%;
