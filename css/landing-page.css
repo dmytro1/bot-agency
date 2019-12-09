@@ -102,6 +102,15 @@ nav.navbar .navbar-brand {
   }
 }
 
+.showcase .carousel-indicators li {
+  height: 7px;
+  background-color: #e6d5d5;
+}
+
+.showcase .carousel-indicators .active {
+  background-color: #7f878f;
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;

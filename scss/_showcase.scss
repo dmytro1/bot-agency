@@ -14,7 +14,7 @@
 
   .tg-btn-inverse:hover {
     color: #0088cc;
-    border-color: #0088cc; ;
+    border-color: #0088cc;
     background-color: #fff;
   }
 
@@ -24,6 +24,17 @@
     }
     img {
       max-width: 80%;
+    }
+  }
+
+  .carousel-indicators {
+    li {
+      height: 7px;
+      background-color: #e6d5d5;
+    }
+
+    .active {
+      background-color: #7f878f;
     }
   }
 }
